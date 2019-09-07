@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog Finder</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dog Walker</h1>
+        <form>
+            <label for="numberOfDogs">Choose a number(1-50)</label>
+            <input type="number" name="numberOfDogs" id="numberOfDogs" placeholder="3" required>
+            <input type="submit" value="Get random dog pics!" required>
+        </form>
+        <section class="results hidden">
+            <h2>Aren't they adorable?!</h2>
+            <div class="imgContainer">
+                <ul id="chosen"></ul>
+            </div>
+        </section>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>    
+</body>
+</html>
